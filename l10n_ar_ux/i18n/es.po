@@ -3,15 +3,15 @@
 # 	* l10n_ar_ux
 # 
 # Translators:
-# Juan José Scarafía <scarafia.juanjose@gmail.com>, 2023
+# Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-16 19:22+0000\n"
+"POT-Creation-Date: 2024-10-28 18:24+0000\n"
 "PO-Revision-Date: 2023-01-13 13:51+0000\n"
-"Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2023\n"
+"Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,6 +31,9 @@ msgid ""
 "* Enables Check Cash-In Date feature\n"
 "* Disables printing"
 msgstr ""
+"* Se le permite poner números manualmente\n"
+"* Nuevo campo para fecha de pago (Fecha de Pago del Cheque)\n"
+"* La impresión esta deshabilitada"
 
 #. module: l10n_ar_ux
 #: model_terms:ir.ui.view,arch_db:l10n_ar_ux.report_payment_group_document
@@ -244,7 +247,7 @@ msgstr "Cuenta"
 #. module: l10n_ar_ux
 #: model:ir.model,name:l10n_ar_ux.model_account_chart_template
 msgid "Account Chart Template"
-msgstr "Plantilla de Plan de Cuentas"
+msgstr "Plantilla de plan contable"
 
 #. module: l10n_ar_ux
 #: model:ir.model,name:l10n_ar_ux.model_account_account_tag
@@ -311,7 +314,7 @@ msgstr ""
 #. module: l10n_ar_ux
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_account_invoice_report__price_average
 msgid "Average Price (CC)"
-msgstr ""
+msgstr "Precio promedio"
 
 #. module: l10n_ar_ux
 #: model:ir.model.fields,help:l10n_ar_ux.field_account_invoice_report__price_average
@@ -410,7 +413,7 @@ msgstr "Conceptos"
 #. module: l10n_ar_ux
 #: model:ir.model,name:l10n_ar_ux.model_res_config_settings
 msgid "Config Settings"
-msgstr "Opciones de configuración"
+msgstr "Ajustes de configuración"
 
 #. module: l10n_ar_ux
 #: model_terms:ir.ui.view,arch_db:l10n_ar_ux.view_account_payment_add_checks_form
@@ -465,21 +468,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_ar_ux/wizards/account_move_change_rate.py:0
 #, python-format
-msgid "Currency rate changed from %s to %s"
-msgstr "La Tasa de Cambio fue modificada de %s a %s"
-
-#. module: l10n_ar_ux
-#. odoo-python
-#: code:addons/l10n_ar_ux/wizards/account_move_change_rate.py:0
-#, python-format
-msgid "Currency rate changed from %s to %s . Currency rate forced"
+msgid "Currency rate changed from '%s' to '%s' . Currency rate forced"
 msgstr ""
-"La Tasa de Cambio fue modificada de %s a %s. La Tasa de Cambio fue forzada."
 
 #. module: l10n_ar_ux
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_account_journal__l10n_ar_afip_pos_partner_id
 msgid "Dirección Punto de venta"
-msgstr ""
+msgstr "Dirección PdV AFIP"
 
 #. module: l10n_ar_ux
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_account_invoice_report__discount
@@ -578,6 +573,13 @@ msgstr ""
 #. module: l10n_ar_ux
 #: model:ir.model.fields.selection,name:l10n_ar_ux.selection__res_partner__imp_iva_padron__xn
 msgid "Exento no alcanzado"
+msgstr ""
+
+#. module: l10n_ar_ux
+#. odoo-python
+#: code:addons/l10n_ar_ux/models/account_journal.py:0
+#, python-format
+msgid "External Fiscal Controller"
 msgstr ""
 
 #. module: l10n_ar_ux
@@ -1108,6 +1110,13 @@ msgstr ""
 "validadas."
 
 #. module: l10n_ar_ux
+#. odoo-python
+#: code:addons/l10n_ar_ux/wizards/account_move_change_rate.py:0
+#, python-format
+msgid "The forced rate '%s' was removed, date rate will be use"
+msgstr ""
+
+#. module: l10n_ar_ux
 #: model:ir.model.fields,help:l10n_ar_ux.field_res_company__gross_income_jurisdiction_ids
 #: model:ir.model.fields,help:l10n_ar_ux.field_res_partner__gross_income_jurisdiction_ids
 #: model:ir.model.fields,help:l10n_ar_ux.field_res_users__gross_income_jurisdiction_ids
@@ -1129,7 +1138,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_account_invoice_report__price_total
 #: model_terms:ir.ui.view,arch_db:l10n_ar_ux.view_account_invoice_line_report_tree
 msgid "Total"
-msgstr ""
+msgstr "Total en moneda"
 
 #. module: l10n_ar_ux
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_account_invoice_report__total_cc
@@ -1149,7 +1158,7 @@ msgstr ""
 #. module: l10n_ar_ux
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_account_invoice_report__price_subtotal
 msgid "Untaxed Total (CC)"
-msgstr ""
+msgstr "Total imponible"
 
 #. module: l10n_ar_ux
 #: model:ir.model.fields,help:l10n_ar_ux.field_account_invoice_report__price_subtotal
@@ -1165,7 +1174,7 @@ msgstr "Usar tasa de camboi del dia."
 #. module: l10n_ar_ux
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_account_journal__l10n_latam_manual_checks
 msgid "Use electronic and deferred checks"
-msgstr ""
+msgstr "Usa cheques electronicos o diferidos"
 
 #. module: l10n_ar_ux
 #: model_terms:ir.ui.view,arch_db:l10n_ar_ux.res_config_settings_inherit_view_form

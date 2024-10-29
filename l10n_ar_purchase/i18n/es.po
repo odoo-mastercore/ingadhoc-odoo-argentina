@@ -3,15 +3,16 @@
 # 	* l10n_ar_purchase
 # 
 # Translators:
-# Juan José Scarafía <scarafia.juanjose@gmail.com>, 2023
+# MaxiMezzavilla, 2024
+# Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-28 15:28+0000\n"
+"POT-Creation-Date: 2024-10-04 20:37+0000\n"
 "PO-Revision-Date: 2023-07-28 15:28+0000\n"
-"Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2023\n"
+"Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,8 +67,8 @@ msgid "Cancelled Purchase Order"
 msgstr "Pedido de compra cancelado"
 
 #. module: l10n_ar_purchase
-#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.custom_header_purchasequotation
 #: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.custom_header_purchaseorder
+#: model_terms:ir.ui.view,arch_db:l10n_ar_purchase.custom_header_purchasequotation
 msgid "Date due:"
 msgstr "Fecha de vencimiento:"
 
