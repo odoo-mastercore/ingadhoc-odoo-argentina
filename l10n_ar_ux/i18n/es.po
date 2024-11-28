@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 18:24+0000\n"
+"POT-Creation-Date: 2024-11-27 18:25+0000\n"
 "PO-Revision-Date: 2023-01-13 13:51+0000\n"
 "Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
@@ -293,7 +293,7 @@ msgstr "Actividades"
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_res_partner__start_date
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_res_users__start_date
 msgid "Activities Start"
-msgstr "Inicio actividades"
+msgstr "Inicio de las actividades"
 
 #. module: l10n_ar_ux
 #: model:ir.model.fields.selection,name:l10n_ar_ux.selection__res_partner__imp_ganancias_padron__ac
@@ -454,7 +454,7 @@ msgstr "Moneda"
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_account_move_change_rate__currency_rate
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_account_payment__l10n_ar_currency_rate
 msgid "Currency Rate"
-msgstr "Tasa de la moneda"
+msgstr "Tipo de cambio"
 
 #. module: l10n_ar_ux
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_account_bank_statement_line__computed_currency_rate
@@ -1127,7 +1127,7 @@ msgstr "La provincia de la empresa es considerada la Jurisdiccion Sede"
 #: model:ir.model.fields,help:l10n_ar_ux.field_account_journal__l10n_ar_afip_pos_partner_id
 msgid "This is the address used for invoice reports of this POS"
 msgstr ""
-"Esta dirección es la usada para los reportes de facturación de este PdV"
+"Esta dirección se utiliza para los informes de facturación de este PdV"
 
 #. module: l10n_ar_ux
 #: model_terms:ir.ui.view,arch_db:l10n_ar_ux.res_config_settings_inherit_view_form
